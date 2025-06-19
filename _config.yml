@@ -23,9 +23,9 @@ repository               : "WoeiChyi/WoeiChyi.github.io"
 author:
   # Biographic information
   avatar           : "woeichyi.png"
-  name             : "Woei-Chyi Chang"
+  name             : "Dr. Woei-Chyi Chang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Ph.D. @ Purdue University"
   location         : "Earth"
   employer         : "Purdue University"
   uri              : # URL
