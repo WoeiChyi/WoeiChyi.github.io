@@ -23,9 +23,9 @@ repository               : "WoeiChyi/WoeiChyi.github.io"
 author:
   # Biographic information
   avatar           : "woeichyi.png"
-  name             : "Woei-Chyi Chang <br>| 張暐祁"
+  name             : "Woei-Chyi Chang"
   #pronouns         : "he/him"  
-  bio              : "Ph.D. @ Purdue University"
+  bio              : "Postdoctoral Research @ Purdue University <br> | Ph.D. in Civil Engineering <br> | M.S. in Electrical & Computer Engineering"
   location         : "West Lafayette, IN"
   employer         : "Purdue University"
   uri              : # URL
