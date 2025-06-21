@@ -5,31 +5,24 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h2>Journal Articles</h2>
 
-{% include base_path %}
+<div style="margin-bottom: 1.5em;">
+  <strong>Title:</strong> The Future of Worker-Drone Interaction in Construction<br />
+  <strong>Citation:</strong> Chang, W.-C., Hasanzadeh, S. (2024). *The Future of Worker-Drone Interaction in Construction*. Journal of Construction Robotics.<br />
+  <a href="https://doi.org/xxx" target="_blank">🔗 View Paper</a>
+</div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div style="margin-bottom: 1.5em;">
+  <strong>Title:</strong> A Deep Learning Framework for Safety Risk Detection<br />
+  <strong>Citation:</strong> Chang, W.-C., Smith, J., & Lee, Y. (2023). *A Deep Learning Framework for Safety Risk Detection*. Automation in Construction.<br />
+  <a href="https://doi.org/xxx" target="_blank">🔗 View Paper</a>
+</div>
 
+<h2>Conference Proceedings</h2>
 
+<div style="margin-bottom: 1.5em;">
+  <strong>Title:</strong> Mixed Reality for Construction Training<br />
+  <strong>Citation:</strong> Chang, W.-C., & Kim, H. (2022). *Mixed Reality for Construction Training*. In Proceedings of the ASCE International Conference on Computing in Civil Engineering.<br />
+  <a href="https://doi.org/xxx" target="_blank">🔗 View Paper</a>
+</div>
