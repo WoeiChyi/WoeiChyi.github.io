@@ -12,20 +12,27 @@ redirect_from:
 </div>
 
 <!-- Add Leaflet Map -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-<div id="map" style="height: 500px; width: 100%; margin-top: 2em; contain: paint;"></div>
+<div id="map" style="height: 500px; width: 100%; margin-top: 2em;"></div>
 
 <script>
+  // Initialize the map
   var map = L.map('map').setView([20, 0], 2); // World view
 
+  // Add OpenStreetMap tiles
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
   }).addTo(map);
 
-  // Example markers (customize with your places)
+  // Add markers
   L.marker([40.4237, -86.9212]).addTo(map).bindPopup('Purdue University');
   L.marker([37.7749, -122.4194]).addTo(map).bindPopup('San Francisco - Conference');
+
+  // Force Leaflet to recalculate layout after rendering
+  setTimeout(function () {
+    map.invalidateSize();
+  }, 300); // Adjust timing if needed
 </script>
 
