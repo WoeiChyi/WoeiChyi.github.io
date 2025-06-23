@@ -16,7 +16,7 @@ redirect_from:
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
 <!-- Map Container with `contain: paint` -->
-<div id="map" style="height: 500px; margin-top: 2em; contain: paint;"></div>
+<div id="map" style="height: 500px; width: 100%; margin-top: 2em;"></div>
 
 <script>
   var map = L.map('map').setView([20, 0], 2); // World view
