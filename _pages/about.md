@@ -15,19 +15,17 @@ redirect_from:
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-<div id="map" style="height: 500px; width: 100%; margin-top: 2em;"></div>
+<!-- Map Container with `contain: paint` -->
+<div id="map" style="height: 500px; margin-top: 2em; contain: paint;"></div>
 
 <script>
-  // Initialize the map
   var map = L.map('map').setView([20, 0], 2); // World view
 
-  // Add OpenStreetMap tiles
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
   }).addTo(map);
 
-  // Add markers
+  // Example markers (customize with your places)
   L.marker([40.4237, -86.9212]).addTo(map).bindPopup('Purdue University');
   L.marker([37.7749, -122.4194]).addTo(map).bindPopup('San Francisco - Conference');
 </script>
-
