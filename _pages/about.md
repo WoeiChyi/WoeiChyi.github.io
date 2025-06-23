@@ -29,10 +29,5 @@ redirect_from:
   // Add markers
   L.marker([40.4237, -86.9212]).addTo(map).bindPopup('Purdue University');
   L.marker([37.7749, -122.4194]).addTo(map).bindPopup('San Francisco - Conference');
-
-  // Force Leaflet to recalculate layout after rendering
-  setTimeout(function () {
-    map.invalidateSize();
-  }, 300); // Adjust timing if needed
 </script>
 
