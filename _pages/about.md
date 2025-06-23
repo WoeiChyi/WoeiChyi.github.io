@@ -17,7 +17,7 @@ redirect_from:
 <div id="map" style="height: 500px; width: 100%; margin-top: 2em;"></div>
 
 <script>
-  var map = L.map('map').setView([23.5, -179], 2);
+  var map = L.map('map').setView([40.4237, 20], 2);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
