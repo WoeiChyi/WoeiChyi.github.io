@@ -25,7 +25,8 @@ redirect_from:
   }).addTo(map);
 
   L.marker([40.4237, -86.9212]).addTo(map).bindPopup('Purdue University');
-  L.marker([37.7749, -122.4194]).addTo(map).bindPopup('San Francisco - Conference');
+  L.marker([25.0173, 121.5398]).addTo(map).bindPopup('National Taiwan University');
+  L.marker([49.8719, 8.6512]).addTo(map).bindPopup('TU Darmstadt');
 
   setTimeout(function () {
     map.invalidateSize();
