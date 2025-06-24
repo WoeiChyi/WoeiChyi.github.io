@@ -14,11 +14,11 @@ redirect_from:
 <div style="margin-top: 2em;">
   <h2 style="margin-bottom: 0.5em;">Education</h2>
   <ul style="list-style: disc; padding-left: 1.5em; text-align: justify; text-justify: inter-word;">
-    <li><strong>Ph.D. in Civil Engineering</strong>, Purdue University, USA</li>
-    <li><strong>M.S. in Electrical and Computer Engineering</strong>, Purdue University, USA</li>
-    <li><strong>Exchange in Civil and Environmental Engineering</strong>, TU Darmstadt, Germany</li>
-    <li><strong>M.S. in Civil Engineering</strong>, National Taiwan University, Taiwan</li>
-    <li><strong>B.S. in Civil Engineering</strong>, National Taiwan University, Taiwan</li>
+    <li><strong>Ph.D. in Civil Engineering</strong>, Purdue University, USA (2021-2025)</li>
+    <li><strong>M.S. in Electrical and Computer Engineering</strong>, Purdue University, USA (2024-2025)</li>
+    <li><strong>Exchange in Civil and Environmental Engineering</strong>, TU Darmstadt, Germany (2019-2020)</li>
+    <li><strong>M.S. in Civil Engineering</strong>, National Taiwan University, Taiwan (2017-2020)</li>
+    <li><strong>B.S. in Civil Engineering</strong>, National Taiwan University, Taiwan (2013-2017)</li>
   </ul>
 </div>
 
