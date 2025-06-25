@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Woei-Chyi Chang, Ph.D."
+title                    : "Woei-Chyi Chang/Homepage"
 title_separator          : "-"
 name                     : &name "Woei-Chyi Chang"
 description              : &description "personal description"
