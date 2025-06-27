@@ -7,6 +7,22 @@ author_profile: true
 
 {% include base_path %}
 
+<!-- Intro section with logos on the right -->
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
+  <!-- Text content -->
+  <div style="max-width: 60%;">
+    <p>
+      I have led and contributed to multiple interdisciplinary projects funded by agencies such as the National Science Foundation (NSF), Indiana Department of Transportation (INDOT), and the U.S. Department of Transportation (USDOT). These projects span areas such as human-autonomy teaming, digital twins, wearable sensing, and construction safety.
+    </p>
+  </div>
+
+  <!-- Logos -->
+  <div style="display: flex; gap: 1rem;">
+    <img src="/images/nsf_logo.png" alt="NSF Logo" style="height: 60px;">
+    <img src="/images/indot_logo.png" alt="INDOT Logo" style="height: 60px;">
+    <img src="/images/usdot_logo.png" alt="USDOT Logo" style="height: 60px;">
+  </div>
+</div>
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}
