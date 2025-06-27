@@ -7,43 +7,42 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- Intro section with justified text and spaced logos -->
-<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; gap: 2rem;">
+<!-- Container for both text+list and right-aligned logos below -->
+<div style="display: flex; flex-direction: column; margin-bottom: 2rem;">
 
-  <!-- Text content -->
-  <div style="max-width: 65%; text-align: justify;">
+  <!-- Justified Intro and Project List -->
+  <div style="text-align: justify; max-width: 100%;">
     <p>
       I have led and contributed to multiple interdisciplinary projects funded by agencies such as the National Science Foundation (NSF), Indiana Department of Transportation (INDOT), and the U.S. Department of Transportation (USDOT). This section highlights a selection of those projects.
     </p>
-    <ul style="max-width: 65%; padding-left: 1.2em; margin-top: 1rem; font-size: 0.9em;">
-      <li>
-        <strong>NSF:</strong>
-        <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2128970&HistoricalAwards=false" target="_blank">#2128970</a>
-      </li>
-      <li>
-        <strong>INDOT:</strong>
-        <a href="https://rip.trb.org/View/2253919" target="_blank">#SPR-4835</a>
-        <a href="https://docs.lib.purdue.edu/jtrp/1852" target="_blank">#SPR-4629</a>
-        <a href="https://docs.lib.purdue.edu/jtrp/1798" target="_blank">#SPR-4652</a>
-      </li>
-      <li>
-        <strong>USDOT:</strong>
-        <a href="https://engineering.purdue.edu/CCE/AboutUs/News/Construction_Features/interdisciplinary-research-team-receives-2m-grant-from-usdot-to-improve-workzone-safety-for-drivers-workers" target="_blank">#Smart Grant</a>
-      </li>
-    </ul>
-  </div>
 
-  <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-    <!-- Top logo -->
-    <img src="/images/nsf_logo.png" alt="NSF Logo" style="height: 80px;">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+      <!-- Project List -->
+      <ul style="max-width: 65%; padding-left: 1.2em; margin-top: 1rem; font-size: 0.9em;">
+        <li>
+          <strong>NSF:</strong>
+          <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2128970&HistoricalAwards=false" target="_blank">#2128970</a>
+        </li>
+        <li>
+          <strong>INDOT:</strong>
+          <a href="https://rip.trb.org/View/2253919" target="_blank">#SPR-4835</a>
+          <a href="https://docs.lib.purdue.edu/jtrp/1852" target="_blank">#SPR-4629</a>
+          <a href="https://docs.lib.purdue.edu/jtrp/1798" target="_blank">#SPR-4652</a>
+        </li>
+        <li>
+          <strong>USDOT:</strong>
+          <a href="https://engineering.purdue.edu/CCE/AboutUs/News/Construction_Features/interdisciplinary-research-team-receives-2m-grant-from-usdot-to-improve-workzone-safety-for-drivers-workers" target="_blank">#Smart Grant</a>
+        </li>
+      </ul>
 
-    <!-- Bottom two logos side by side -->
-    <div style="display: flex; justify-content: center; gap: 2rem;">
-      <img src="/images/indot_logo.png" alt="INDOT Logo" style="height: 70px;">
-      <img src="/images/usdot_logo.png" alt="USDOT Logo" style="height: 70px;">
+      <!-- Logos underneath but aligned to the right -->
+      <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.8rem;">
+        <img src="/images/nsf_logo.png" alt="NSF Logo" style="height: 80px;">
+        <img src="/images/indot_logo.png" alt="INDOT Logo" style="height: 70px;">
+        <img src="/images/usdot_logo.png" alt="USDOT Logo" style="height: 70px;">
+      </div>
     </div>
   </div>
-
 </div>
 
 {% for post in site.portfolio %}
