@@ -12,6 +12,15 @@ redirect_from:
 </div>
 
 <div style="margin-top: 2em;">
+  <h2 style="margin-bottom: 0.5em;">Work Experience</h2>
+  <ul style="list-style: disc; padding-left: 1.5em; text-align: justify; text-justify: inter-word;">
+    <li><strong>Postdoctoral Researcher</strong>, Purdue University, USA (2025-Present)</li>
+    <li><strong>Research Assistant</strong>, Purdue University, USA (2021-2025)</li>
+    <li><strong>Research Assistant</strong>, National Taiwan University, Taiwan (2020-2021)</li>
+  </ul>
+</div>
+
+<div style="margin-top: 2em;">
   <h2 style="margin-bottom: 0.5em;">Education</h2>
   <ul style="list-style: disc; padding-left: 1.5em; text-align: justify; text-justify: inter-word;">
     <li><strong>Ph.D. in Civil Engineering</strong>, Purdue University, USA</li>
